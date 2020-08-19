@@ -1,0 +1,43 @@
+Program was run for below scenarios:
+
+File: inst-16.tsp
+command: Python tsp_R00184198.py inst-16.tsp
+
+To evaluate configurations:
+Run 1) Configuration 1
+Run 2) Configuration 2
+Run 3) Configuration 3
+Run 4) Configuration 4
+Run 5) Configuration 5
+Run 6) Configuration 6
+Run 7) Configuration 7
+Run 8) Configuration 8
+
+To Evaluate Population:
+Selected configuration: 5 
+Changed population at line 364: ga = BasicTSP(problem_file, 300, 0.1, 500)
+
+Run 1)  ga = BasicTSP(problem_file, 100, 0.1, 500)
+Run 2)  ga = BasicTSP(problem_file, 200, 0.1, 500)
+Run 3)  ga = BasicTSP(problem_file, 300, 0.1, 500)
+Run 4)  ga = BasicTSP(problem_file, 500, 0.1, 500)
+Run 5)  ga = BasicTSP(problem_file, 1000, 0.1, 500)
+
+To Evaluate Mutation:
+Selected configuration: 5
+Changed population in the code at line 364: ga = BasicTSP(problem_file, 300, 0.1, 500)
+
+Run 1)  ga = BasicTSP(problem_file, 100, 0.01, 500)
+Run 2)  ga = BasicTSP(problem_file, 100, 0.05, 500)
+Run 3)  ga = BasicTSP(problem_file, 100, 0.1, 500)
+Run 4)  ga = BasicTSP(problem_file, 100, 0.2, 500)
+Run 5)  ga = BasicTSP(problem_file, 100, 0.5, 500)
+
+File: inst-16.tsp
+To evaluate convergence of heuristic and random initial population criteria on large population using toy dataset of 10 cities
+command: Python tsp_R00184198.py inst-test.tsp
+
+Changed population to 1000 in the code at line 364: ga = BasicTSP(problem_file, 1000, 0.1, 500)
+
+Run 1) Configuration 5
+Run 2) Configuration 7
